@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  name:'DESKTOP-I9L9IHO'
+  name: default
 steps:
 - task: ArchiveFiles@2
   inputs:
